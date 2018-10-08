@@ -1,9 +1,10 @@
 .navbar {
     list-style-type: none;
     margin: 0;
-    
+    padding-left: 50px;
     overflow: hidden;
-    background-color: grey;
+    background-color: #9FB4F6  ;
+    border-radius: 0px;
 }
 
 .navi  {
@@ -20,11 +21,15 @@
 
 /* Change the link color to #111 (black) on hover */
 .navi a:hover {
-    background-color: black;
+    background-color: #5F71AB  ;
     color: white;
 }
 
 #active {
-    background-color: green;
+    background-color: #0E42EA;
     color: white;
+    pointer-events: none;
+}
+.bod, .para {
+  padding: 20px 50px 20px 50px;
 }
