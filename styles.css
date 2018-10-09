@@ -11,7 +11,7 @@
     display:inline-block;
 }
 
-.navi a {
+.navi>a {
     display: block;
     color: white;
     text-align: center;
@@ -19,8 +19,7 @@
     text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
-.navi a:hover {
+.navi>a:hover {
     background-color: #5F71AB  ;
     color: white;
 }
