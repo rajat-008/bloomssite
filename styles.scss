@@ -1,3 +1,5 @@
+@import 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css';
+$active:white;
 .navbar {
     list-style-type: none;
     margin: 0;
@@ -13,7 +15,7 @@
 .navi {
   a{
     display: block;
-    color: white;
+    color:$active ;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -39,7 +41,4 @@
   .navi  {
       display:inline-block;
   }
-}
-.verbs{
-  @extend %
 }
