@@ -7,9 +7,7 @@
     border-radius: 0px;
 }
 
-.navi  {
-    display:inline-block;
-}
+
 
 .navi>a {
     display: block;
@@ -31,4 +29,11 @@
 }
 .bod, .para {
   padding: 20px 50px 20px 50px;
+}
+
+@media (min-width: 500px)
+{
+  .navi  {
+      display:inline-block;
+  }
 }
