@@ -10,6 +10,11 @@ $active:white;
     border-radius: 0px;
 }
 
+%para{
+  font-size: 20px;
+  font-weight: bold;
+}
+
 
 
 .navi {
@@ -31,6 +36,7 @@ $active:white;
     background-color: #0E42EA;
     color: white;
     pointer-events: none;
+    @extend %para;
 }
 .bod, .para {
   padding: 20px 50px 20px 50px;
