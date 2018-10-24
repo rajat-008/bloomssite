@@ -48,10 +48,13 @@ $active:white;
 
 @media (min-width: 700px)
 {
-  .dropdown{
-    visibility: hidden;
-  }
   .navi  {
       display:inline-block;
+  }
+}
+@media (min-width: 700px)
+    {
+        .dropdown{
+    visibility: hidden;
   }
 }
