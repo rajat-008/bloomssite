@@ -55,3 +55,10 @@ $active:white;
       display:inline-block;
   }
 }
+
+@media (max-width: 699px)
+{
+  .navi{
+    visibility: hidden;
+  }
+}
