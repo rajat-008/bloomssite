@@ -48,6 +48,10 @@ $active:white;
 
 @media (min-width: 700px)
 {
+  nav{
+    @extend %dropdown-menu;
+
+  }
   .navi  {
       display:inline-block;
   }
