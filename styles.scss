@@ -48,6 +48,9 @@ $active:white;
 
 @media (min-width: 700px)
 {
+  .dropdown{
+    disabled;
+  }
   .navi  {
       display:inline-block;
   }
