@@ -1,18 +1,16 @@
 ---
 ---
-%navigation{
-  list-style-type: none;
+
+
+@import 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css';
+$active:white;
+.navbar {
+   list-style-type: none;
   margin: 0;
   padding-left: 50px;
   padding-right: 50px;
   overflow: hidden;
   background-color: #9FB4F6  ;
-}
-
-@import 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css';
-$active:white;
-.navbar {
-    @extends %navigation;
     border-radius: 0px;
 }
 
@@ -48,9 +46,6 @@ $active:white;
   padding: 20px 50px 20px 50px;
 }
 
-.dropdown{
-  @extends %navigation;
-}
 
 @media (min-width: 700px)
 {
@@ -61,8 +56,9 @@ $active:white;
 
 @media (max-width: 699px)
 {
-  .navi{
+  .nav{
     visibility: hidden;
+    display:none;
   }
 }
 
@@ -70,5 +66,6 @@ $active:white;
 {
   .dropdown{
     visibility: hidden;
+    display:none;
   }
 }
