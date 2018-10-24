@@ -59,3 +59,11 @@ $active:white;
     display: none;
   }
 }
+
+@media (max-width: 699px)
+    {
+        .navi{
+    visibility: hidden;
+    display: none;
+  }
+}
